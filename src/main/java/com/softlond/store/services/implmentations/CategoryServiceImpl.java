@@ -5,13 +5,14 @@ import com.softlond.store.repositories.contracts.ICategoryRepository;
 import com.softlond.store.services.contracts.ICategoryService;
 import jakarta.transaction.Transactional;
 import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
-@AllArgsConstructor
 @Service
+@RequiredArgsConstructor
 public class CategoryServiceImpl implements ICategoryService {
 
     private final ICategoryRepository iCategoryRepository;

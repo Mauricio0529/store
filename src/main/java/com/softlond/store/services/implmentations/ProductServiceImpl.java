@@ -4,14 +4,14 @@ import com.softlond.store.dto.ProductDto;
 import com.softlond.store.dto.ProductRequestDto;
 import com.softlond.store.repositories.contracts.IProductRepository;
 import com.softlond.store.services.contracts.IProductService;
-import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
-@AllArgsConstructor
 @Service
+@RequiredArgsConstructor
 public class ProductServiceImpl implements IProductService {
 
     private final IProductRepository iProductRepository;

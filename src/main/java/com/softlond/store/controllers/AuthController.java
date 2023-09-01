@@ -7,7 +7,6 @@ import com.softlond.store.dto.CustomerRequestDto;
 import com.softlond.store.dto.JwtResponseDto;
 import com.softlond.store.services.contracts.IAuthService;
 import com.softlond.store.services.contracts.ICustomerService;
-import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

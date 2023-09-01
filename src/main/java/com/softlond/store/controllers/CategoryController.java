@@ -3,7 +3,7 @@ package com.softlond.store.controllers;
 import com.softlond.store.constants.CategoryApiConstants;
 import com.softlond.store.dto.CategoryDto;
 import com.softlond.store.services.contracts.ICategoryService;
-import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping(path = CategoryApiConstants.CATEGORY_API_PREFIX)
-@AllArgsConstructor
+@RequiredArgsConstructor
 public class CategoryController {
 
     private final ICategoryService iCategoryService;

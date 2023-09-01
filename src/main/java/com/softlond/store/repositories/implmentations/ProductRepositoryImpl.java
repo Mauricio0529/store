@@ -8,14 +8,14 @@ import com.softlond.store.repositories.contracts.IProductRepository;
 import com.softlond.store.repositories.mapper.MapperProduct;
 import com.softlond.store.repositoriesCrudJpa.ICategoryRepositoryCrudJpa;
 import com.softlond.store.repositoriesCrudJpa.IProductRepositoryCrudJpa;
-import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
 
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
 
-@AllArgsConstructor
+@RequiredArgsConstructor
 @Repository
 public class ProductRepositoryImpl implements IProductRepository {
 

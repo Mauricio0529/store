@@ -5,13 +5,13 @@ import com.softlond.store.entities.Categories;
 import com.softlond.store.repositories.contracts.ICategoryRepository;
 import com.softlond.store.repositories.mapper.MapperCategory;
 import com.softlond.store.repositoriesCrudJpa.ICategoryRepositoryCrudJpa;
-import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Optional;
 
-@AllArgsConstructor
+@RequiredArgsConstructor
 @Repository
 public class CategoryRepositoryImpl implements ICategoryRepository {
 
